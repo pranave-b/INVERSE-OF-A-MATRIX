@@ -1,32 +1,31 @@
-# EIGENVALUES-AND-EIGENVECTORS
+# INVERSE-OF-A-MATRIX
 ## Aim:
-To write a python program to find the Eigenvalues and Eigen Vectors
+To write a python program to find the inverse of a matrix
 ## Equipment’s required:
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1 : 
-Start the program 
+Start the program
 ### Step 2: 
 Import numpy module as np
-### Step 3: Using the np.linalg.eig(),  we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
+### Step 3: 
+Assign the given values in the formula
 ### Step 4: 
 Run the program
-
 ## Program:
-```
-#Program to find the eigen values and eigen vectors.
+~~~
+
+#Program to find the inverse of a matrix.
 #Developed by: PRANAVE B
 #RegisterNumber: 21500582
-
 import numpy as np
-A=np.array([[2,2],[1,3]])
-values,vectors=np.linalg.eig(A)
-print('Eigen values are',values,"and Eigen Vectors are",vectors)
-
-```
-
+A=([[2,1,1],[1,1,1],[1,-1,2]])
+b=np.linalg.inv(A)
+print(b)
+~~~
 ## Output:
-![github logo](eigen_vectors(1).png)
+![github logo](inverse.png)
 ## Result:
-Thus the Eigenvalue and Eigenvector is successfully solved using python program
+Thus the inverse of given matrix is successfully solved using python program
+
